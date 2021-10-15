@@ -25,7 +25,35 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 10px;
+    
+}
+
+.text-normal {
+    font-size: 13px;
+}
+
+.text-small {
+    font-size: 11px;
+}
+
+.text-white {
+    color: white;
+}
+
+
+.btn {
+    font-size: 13px;
+    padding: 4px 15px;
+}
+
+.blue {
+    background-color: #0061ff;
+    color: white;
+    
+}
+
+.white {
+    background-color: white;
 }
 
 /* column general*/
@@ -62,45 +90,56 @@ a {
 }
 
 .img-logo {
-    width: 95%;
+    width: 80%;
     display: inline-block;
-    text-align: center;
     vertical-align: middle;
-    
+    padding-left: 10px;    
 }
 
 .col-links-sx {
     width: 25%;
-    /* TEST */
-    background-color: rgb(140, 0, 255);
-    margin-right: 26%;
+    margin-right: 26%; 
+    text-align: center;
+    line-height: 60px;
 }
 
-ul {
-    width: 100%;
+.menu-links-sx li{
+    display: inline-block;
     
 }
-li a {
-    display: inline-block;
-    text-align: center;
-    line-height: 60px;
+
+.menu-links-sx a {
+    margin: 0 10px;
+    color: black;
+    font-size: 13px;
 }
 
-li a {
-    display: inline-block;
-    text-align: center;
-    line-height: 60px;
-}
-
+/* seconda colonna */
 .col-links-dx {
-    width: 27%;
-    /* TEST */
-    background-color: rgb(255, 0, 179);
+    width: 27%;  
+    text-align: center;
+    line-height: 60px;  
 }
 
+.menu-links-dx li{
+    display: inline-block;
+
+    
+}
+
+.menu-links-dx a {
+    margin: 0 10px;
+    color: black;
+    font-size: 13px;
+}
+
+/* terza colonna */
 .col-inizia {
     width: 10%;
-    /* TEST */
-    background-color: rgb(255, 0, 0);
+    text-align: center;
+    line-height: 60px; 
+   
+    
 }
+
 
