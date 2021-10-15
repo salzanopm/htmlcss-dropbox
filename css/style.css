@@ -49,6 +49,11 @@ section {
     font-size: 11px;
 }
 
+.text-smaller {
+    font-size: 11px;
+}
+
+
 .text-white {
     color: white;
 }
@@ -167,16 +172,29 @@ section {
 /* jumbotron */
 .title-jumbotron{
     font-size: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 /* immagine jumbotron */
 .col-img-jumbotron {
-    width: 60%;
-
-    
+    width: 63%;
 }
+
+.img-jumbotron {
+    width: 90%;
+}
+
 /* testo jumbotron */
 .col-text-jumbotron {
-    width: 40%;
+    width: 27%;
+    margin-right: 10%;
+}
+
+.container-try-for-free {
+    margin: 20px 0;
+}
+
+.fas .fa-arrow-down {
+    font-size: 100px;
+    height: 100px;
 
 }
