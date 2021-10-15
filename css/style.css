@@ -7,7 +7,17 @@
 
 /* TEST STYLE */
 .height100 {
-    height: 60px;
+    height: 100px;
+}
+.height600 {
+    height: 600px;
+}
+.plum {
+    background-color: plum;
+}
+
+.purple {
+    background-color: purple;
 }
 
 /* COMMON */
@@ -26,6 +36,9 @@ li {
 a {
     text-decoration: none;
     
+}
+section {
+    padding-top: 120px;
 }
 
 .text-normal {
@@ -67,8 +80,13 @@ a {
     clear: both;
 } 
 
-.container {
-    width: 80%;
+.container-80 {
+    width: 85%;
+    margin: auto;
+}
+
+.container-70 {
+    width: 70%;
     margin: auto;
 }
 
@@ -78,13 +96,13 @@ a {
     position: fixed;
     width: 100%;
     height: 60px;
+    background-color: white;
    
     
 }
 /* prima colonna */
 .col-logo {
     width: 12%;
-    background-color: rgb(235, 231, 238);
     line-height: 50px;
     
 }
@@ -138,8 +156,27 @@ a {
     width: 10%;
     text-align: center;
     line-height: 60px; 
-   
+}
+
+.jumbotron {
+    background-color: #b4d0e7;
     
 }
 
+/* MAIN */
+/* jumbotron */
+.title-jumbotron{
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+/* immagine jumbotron */
+.col-img-jumbotron {
+    width: 60%;
 
+    
+}
+/* testo jumbotron */
+.col-text-jumbotron {
+    width: 40%;
+
+}
