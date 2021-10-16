@@ -47,6 +47,24 @@ section {
     font-weight: 800;
 }
 
+.common-title-medium {
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.common-title-small {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.text-gray {
+    color: #687785;
+}
+
+.text-blue {
+    color: #0c68ff;
+}
+
 .text-normal {
     font-size: 13px;
 }
@@ -56,7 +74,7 @@ section {
 }
 
 .text-smaller {
-    font-size: 11px;
+    font-size: 8px;
 }
 
 
@@ -64,11 +82,14 @@ section {
     color: white;
 }
 
+.hr-small {
+    background-color: #d8d8db;
+    width: 30%;
+}
+
 .btn-radius {
     display: inline-block;
-    
     background-color: white;
-    border: solid #0061ff 4px;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -76,9 +97,18 @@ section {
     vertical-align: middle;
 }
 
+.btn-radius-blue {
+    border: solid #0061ff 4px;
+}
+
+.btn-radius-gray {
+    border: solid #d8d8db 1.5px;
+}
+
 .btn {
     font-size: 13px;
     padding: 4px 15px;
+    text-align: center;
 }
 
 .blue {
@@ -91,10 +121,12 @@ section {
     background-color: white;
 }
 
+
 /* column general*/
 .col {
     float: left;
 }
+
 
 .clearfix::after {
     content: '';
@@ -222,20 +254,41 @@ section {
 /* column business plan */
 .col-singolo-professional {
     width: 30%;
+    display: inline-block;
+    text-align: center;
 }
 
 .col-team-standard {
     width: 30%;
     margin:0 5%;
+    display: inline-block;
+    text-align: center;
 }
 .col-team-advanced {
     width: 30%;
+    display: inline-block;
+    text-align: center;
 }
 
-.col-border {
+.style-border {
     border: solid #d8d8db;
 }
 
-.col-border-bottom {
+.style-border-bottom {
     border-bottom: solid #d8d8db;
 }
+
+.fa-building,
+.fa-user {
+    margin: 15px 0;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
+.container-left-align {
+    text-align: left;
+    margin: 20px;
+}
+
