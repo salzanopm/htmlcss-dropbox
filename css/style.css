@@ -9,6 +9,7 @@
 .height100 {
     height: 100px;
 }
+
 .height600 {
     height: 600px;
 }
@@ -41,6 +42,11 @@ section {
     padding-top: 120px;
 }
 
+.common-title-big {
+    font-size: 31px;
+    font-weight: 800;
+}
+
 .text-normal {
     font-size: 13px;
 }
@@ -58,6 +64,17 @@ section {
     color: white;
 }
 
+.btn-radius {
+    display: inline-block;
+    
+    background-color: white;
+    border: solid #0061ff 4px;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
 
 .btn {
     font-size: 13px;
@@ -193,8 +210,32 @@ section {
     margin: 20px 0;
 }
 
-.fas .fa-arrow-down {
-    font-size: 100px;
-    height: 100px;
 
+.choose-plan {
+    margin: 35px 0;
+}
+
+.plan {
+    margin-right: 15px ;
+}
+
+/* column business plan */
+.col-singolo-professional {
+    width: 30%;
+}
+
+.col-team-standard {
+    width: 30%;
+    margin:0 5%;
+}
+.col-team-advanced {
+    width: 30%;
+}
+
+.col-border {
+    border: solid #d8d8db;
+}
+
+.col-border-bottom {
+    border-bottom: solid #d8d8db;
 }
