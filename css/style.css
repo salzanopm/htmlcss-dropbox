@@ -5,9 +5,12 @@
     box-sizing: border-box;
 }
 
-/* TEST STYLE */
+/* height  */
 .height100 {
     height: 100px;
+}
+.height880 {
+    height: 880px;
 }
 
 .height600 {
@@ -150,10 +153,21 @@ section {
     position: fixed;
     width: 100%;
     height: 60px;
-    background-color: white;
-   
-    
+    background-color: white;   
 }
+
+.menu-links-sx > li > a:hover {
+    text-decoration: underline;
+    text-underline-offset: 22px;
+    text-decoration-thickness: 2px; 
+}
+
+.menu-links-dx > li > a:hover {
+    text-decoration: underline;
+    text-underline-offset: 22px;
+    text-decoration-thickness: 2px; 
+}
+
 /* prima colonna */
 .col-logo {
     width: 12%;
@@ -292,3 +306,46 @@ section {
     margin: 20px;
 }
 
+.month {
+    padding-bottom: 25px;
+}
+
+.space {
+    padding: 10px 0;
+}
+
+.function {
+    padding: 10px 0 40px 0;
+}
+
+.buy-now {
+    padding: 20px 0;
+}
+
+.highlights {
+    padding: 30px 0 10px 0;
+}
+
+.check {
+    padding: 10px 0;
+}
+
+.columns {
+    margin-bottom: 40px;
+}
+
+.col-enterprise-left {
+    width: 70%;
+}
+
+.col-enterprise-right {
+    width: 30%;
+}
+
+.enterprise {
+    padding: 20px;
+}
+
+.padding-titles{
+    padding: 15px 0 10px 0; 
+}
