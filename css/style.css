@@ -489,7 +489,25 @@ section {
 }
 
 .team-row-2 {
-    height: 350px;
-    width: 350px;
+    height: 260px;
+    width: 100%;
+    background-color: #b4d0e7;
+    display: inline-block;
 }
 
+.start-free-trial {
+    display: inline-block;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: black;
+}
+.col-footer-links {
+    width: 20%;
+    color: white;
+}
+.footer-links-list > li > a {
+    color: white;
+}
