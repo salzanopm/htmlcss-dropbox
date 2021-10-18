@@ -122,6 +122,7 @@ section {
 
 .white {
     background-color: white;
+    border: solid;
 }
 
 
@@ -297,6 +298,16 @@ section {
     margin: 15px 0;
 }
 
+.fa-user,
+.fa-folder,
+.fa-pencil-alt {
+    margin-left: -20px;
+}
+
+.icon-text-container {
+    padding-left: 20px;
+}
+
 .fa-check {
     color: #0061ff;
 }
@@ -348,4 +359,28 @@ section {
 
 .padding-titles{
     padding: 15px 0 10px 0; 
+}
+
+/* find a partner section */
+.col-find-a-partner-img {
+    width: 50%;
+}
+.col-find-a-partner-text {
+    width: 50%;
+}
+
+
+.col-find-a-partner-text {
+    text-align: left; 
+    padding: 30px;   
+    
+}
+
+.find-a-partner-title {
+    padding-bottom: 20px;
+}
+
+.find-a-partner-paragraph {
+    line-height: 25px;
+    padding-bottom: 20px;
 }
