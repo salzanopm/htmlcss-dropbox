@@ -428,6 +428,20 @@ section {
 }
 
 /* Team section */
+
+.dropbox-team-title {
+    text-align: left;
+    padding: 20px 430px 20px 0;
+}
+.team-find-out {
+    text-decoration: underline;
+    color: #156eff;
+}
+
+.paragraph-team-find-out {
+    
+}
+
 .team-row-1 {
     height: 300px;
     width: 100%;
@@ -513,6 +527,9 @@ section {
     width: 100%;
     background-color: #b4d0e7;
     display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 260px;
 }
 
 .start-free-trial {
