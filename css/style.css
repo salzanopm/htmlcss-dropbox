@@ -39,7 +39,7 @@ li {
 
 a {
     text-decoration: none;
-    
+
 }
 section {
     padding-top: 120px;
@@ -70,6 +70,7 @@ section {
 
 .text-normal {
     font-size: 13px;
+    font-weight: normal;
 }
 
 .text-small {
@@ -83,6 +84,10 @@ section {
 
 .text-white {
     color: white;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .hr-small {
@@ -117,7 +122,7 @@ section {
 .blue {
     background-color: #0061ff;
     color: white;
-    
+
 }
 
 .white {
@@ -136,7 +141,8 @@ section {
     content: '';
     display: table;
     clear: both;
-} 
+}
+
 
 .container-80 {
     width: 85%;
@@ -154,45 +160,45 @@ section {
     position: fixed;
     width: 100%;
     height: 60px;
-    background-color: white;   
+    background-color: white;
 }
 
 .menu-links-sx > li > a:hover {
     text-decoration: underline;
     text-underline-offset: 22px;
-    text-decoration-thickness: 2px; 
+    text-decoration-thickness: 2px;
 }
 
 .menu-links-dx > li > a:hover {
     text-decoration: underline;
     text-underline-offset: 22px;
-    text-decoration-thickness: 2px; 
+    text-decoration-thickness: 2px;
 }
 
 /* prima colonna */
 .col-logo {
     width: 12%;
     line-height: 50px;
-    
+
 }
 
 .img-logo {
     width: 80%;
     display: inline-block;
     vertical-align: middle;
-    padding-left: 10px;    
+    padding-left: 10px;
 }
 
 .col-links-sx {
     width: 25%;
-    margin-right: 26%; 
+    margin-right: 26%;
     text-align: center;
     line-height: 60px;
 }
 
 .menu-links-sx li{
     display: inline-block;
-    
+
 }
 
 .menu-links-sx a {
@@ -203,15 +209,15 @@ section {
 
 /* seconda colonna */
 .col-links-dx {
-    width: 27%;  
+    width: 27%;
     text-align: center;
-    line-height: 60px;  
+    line-height: 60px;
 }
 
 .menu-links-dx li{
     display: inline-block;
 
-    
+
 }
 
 .menu-links-dx a {
@@ -224,12 +230,12 @@ section {
 .col-inizia {
     width: 10%;
     text-align: center;
-    line-height: 60px; 
+    line-height: 60px;
 }
 
 .jumbotron {
     background-color: #b4d0e7;
-    
+
 }
 
 /* MAIN */
@@ -358,7 +364,7 @@ section {
 }
 
 .padding-titles{
-    padding: 15px 0 10px 0; 
+    padding: 15px 0 10px 0;
 }
 
 /* find a partner section */
@@ -371,9 +377,9 @@ section {
 
 
 .col-find-a-partner-text {
-    text-align: left; 
-    padding: 30px;   
-    
+    text-align: left;
+    padding: 30px;
+
 }
 
 .find-a-partner-title {
@@ -384,3 +390,106 @@ section {
     line-height: 25px;
     padding-bottom: 20px;
 }
+
+/* operation section part */
+
+.operation-title {
+    margin-bottom: 30px;
+}
+
+.operation-row-1 {
+    margin-bottom: 40px;
+}
+
+.col-operation-1 {
+    width: 30%;
+}
+
+.col-operation-2 {
+    width: 30%;
+    margin:0 5%;
+}
+
+.col-operation-3 {
+    width: 30%;
+}
+
+.col-operation-4 {
+    width: 30%;
+}
+
+.col-operation-5 {
+    width: 30%;
+    margin:0 5%;
+}
+
+.col-operation-6 {
+    width: 30%;
+}
+
+/* Team section */
+.team-row-1 {
+    height: 300px;
+    width: 100%;
+}
+
+.col-team-box-left-and-right {
+    width: 350px;
+    height: 350px;
+}
+
+.col-50 {
+    width: 50%;
+    height: 50%;
+}
+/* sfondi boxes */
+
+.up-left-box-left {
+    background-color: #a2d39b;
+}
+
+.up-right-box-left {
+    background-color: #61082b;
+}
+
+.down-left-box-left {
+    background-color: #0093ce;
+}
+
+.down-right-box-left {
+    background-color: #ff1c1c;
+}
+
+.up-left-box-right {
+    background-color: #d5001f;
+}
+
+.up-right-box-right {
+    background-color: #b4d0e7;
+}
+
+.down-left-box-right {
+    background-color: #0d2481;
+}
+
+.down-right-box-right {
+    background-color: #ffd830;
+}
+
+
+
+
+
+
+
+
+.col-team-central {
+    width: calc(100% - 700px);
+    height: 350px;
+}
+
+.team-row-2 {
+    height: 350px;
+    width: 350px;
+}
+
