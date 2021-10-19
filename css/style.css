@@ -302,11 +302,20 @@ hr {
     display: inline-block;
     text-align: center;
 }
+
+
 .col-team-advanced {
     width: 30%;
     display: inline-block;
     text-align: center;
 }
+
+.col-team-enterprise {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
 
 .style-border {
     border: solid #d8d8db;
