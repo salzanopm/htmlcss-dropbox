@@ -51,6 +51,21 @@ hr {
     background-color: #d8d8db;
 }
 
+.wrapper {
+    width: 90%;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.wrapper-list {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.list-icon-text {
+    padding: 6px 0;
+}
+
 .common-title-big {
     font-size: 31px;
     font-weight: 800;
@@ -532,9 +547,6 @@ hr {
 .down-right-box-right {
     background-color: #ffd830;
 }
-
-
-
 
 .col-team-central {
     width: calc(100% - 700px);
