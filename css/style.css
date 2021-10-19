@@ -34,25 +34,31 @@ hr {
     background-color: #d8d8db;
 }
 
-
-.list-icon-text {
-    padding: 6px 0;
+h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
 }
 
-.common-title-big {
+h2 {
     font-size: 31px;
     font-weight: 800;
 }
 
-.common-title-medium {
+h3 {
     font-size: 21px;
     font-weight: 800;
 }
 
-.common-title-small {
-    font-size: 12px;
+h4 {
+    font-size: 15px;
     font-weight: 800;
 }
+
+/* text style */
+.list-icon-text {
+    padding: 6px 0;
+}
+
 
 .text-gray {
     color: #687785;
@@ -75,7 +81,6 @@ hr {
     font-size: 8px;
 }
 
-
 .text-white {
     color: white;
 }
@@ -84,11 +89,13 @@ hr {
     text-decoration: underline;
 }
 
+/* hr style */
 .hr-small {
     background-color: #d8d8db;
     width: 30%;
 }
 
+/* buttons style */
 .btn-radio {
     display: inline-block;
     background-color: white;
@@ -132,12 +139,10 @@ hr {
     border: solid;
 }
 
-
 /* column general*/
 .col {
     float: left;
 }
-
 
 .clearfix::after {
     content: '';
@@ -145,8 +150,8 @@ hr {
     clear: both;
 }
 
-
-.container-80 {
+/* container general */
+.container-85 {
     width: 85%;
     margin: auto;
 }
@@ -157,7 +162,7 @@ hr {
 }
 
 /* HEADER */
-/* navbar */
+/* navbar style */
 .navbar {
     position: fixed;
     width: 100%;
@@ -178,7 +183,7 @@ hr {
     text-decoration-thickness: 2px;
 }
 
-/* prima colonna */
+/* navbar first column */
 .col-logo {
     width: 12%;
     line-height: 50px;
@@ -192,6 +197,7 @@ hr {
     padding-left: 10px;
 }
 
+/* navbar second column */
 .col-links-sx {
     width: 25%;
     margin-right: 26%;
@@ -210,7 +216,7 @@ hr {
     font-size: 13px;
 }
 
-/* seconda colonna */
+/* third column */
 .col-links-dx {
     width: 27%;
     text-align: center;
@@ -229,26 +235,20 @@ hr {
     font-size: 13px;
 }
 
-/* terza colonna */
+/* fourth column */
 .col-inizia {
     width: 10%;
     text-align: center;
     line-height: 60px;
 }
 
+/* MAIN */
+/* jumbotron */
 .jumbotron {
     background-color: #b4d0e7;
     height: 600px;
-
 }
 
-/* MAIN */
-/* jumbotron */
-.title-jumbotron{
-    font-size: 60px;
-    padding-bottom: 30px;
-}
-/* immagine jumbotron */
 .col-img-jumbotron {
     width: 63%;
 }
@@ -262,12 +262,12 @@ hr {
     width: 27%;
     margin-right: 10%;
 }
-
+/* button jumbotron */
 .container-try-for-free {
     margin: 20px 0;
 }
 
-
+/* radio button business plan */
 .choose-plan {
     margin: 35px 0;
 }
@@ -276,7 +276,7 @@ hr {
     margin-right: 15px ;
 }
 
-/* column business plan */
+/* left column business plan */
 .col-singolo-professional {
     width: 30%;
     display: inline-block;
@@ -284,6 +284,7 @@ hr {
     min-height: 1000px;
 }
 
+/* central column business plan */
 .col-team-standard {
     width: 30%;
     margin:0 5%;
@@ -292,7 +293,7 @@ hr {
     min-height: 1000px;
 }
 
-
+/* right column business plan */
 .col-team-advanced {
     width: 30%;
     display: inline-block;
@@ -300,21 +301,23 @@ hr {
     min-height: 1000px;
 }
 
+/* down row business plan */
 .col-team-enterprise {
     width: 100%;
     display: inline-block;
     text-align: center;
 }
 
+/* button enterprise */
+.style-border-bottom {
+    border-bottom: solid #d8d8db;
+}
 
 .style-border {
     border: solid #d8d8db;
 }
 
-.style-border-bottom {
-    border-bottom: solid #d8d8db;
-}
-
+/* icon business plan */
 .title-icon {
     margin: 15px 0;
 }
@@ -355,6 +358,7 @@ hr {
     padding: 30px 0 10px 0;
 }
 
+/* container list */
 .wrapper {
     width: 90%;
     text-align: left;
@@ -398,7 +402,6 @@ hr {
     width: 50%;
 }
 
-
 .col-find-a-partner-text {
     text-align: left;
     padding: 30px;
@@ -415,7 +418,6 @@ hr {
 }
 
 /* operation section part */
-
 .operation-title {
     margin-bottom: 30px;
 }
@@ -427,6 +429,8 @@ hr {
 .operation-row-1 {
     margin-bottom: 40px;
 }
+
+/* width operation columns */
 
 .col-operation-1 {
     width: 30%;
@@ -455,11 +459,11 @@ hr {
 }
 
 /* Team section */
-
 .dropbox-team-title {
     text-align: left;
     padding: 20px 430px 20px 0;
 }
+
 .blue-link {
     color: #156eff;
 }
@@ -493,7 +497,7 @@ hr {
     vertical-align: middle;
 }
 
-/* sfondi boxes */
+/* background boxes */
 .up-left-box-left {
     background-color: #d0e9cd;
 }
@@ -550,7 +554,7 @@ hr {
     margin: 20px 0;
 }
 
-.firma-box-central {
+.sign-box-central {
     padding: 50px 0;
 }
 .team-row-2 {
@@ -568,6 +572,7 @@ hr {
     display: inline-block;
 }
 
+/* "inizia la tua prova gratuita" button */
 .start-free-trial {
     display: inline-block;
     border-color: white;
@@ -578,7 +583,6 @@ hr {
     width: 45%;
     margin-right: 15%;
     text-align: left;
-    
 }
 
 .col-team-row-2-btn {
