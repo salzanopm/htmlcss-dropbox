@@ -9,9 +9,7 @@
 .height100 {
     height: 100px;
 }
-.height880 {
-    height: 880px;
-}
+
 
 .height600 {
     height: 600px;
@@ -294,6 +292,7 @@ hr {
     width: 30%;
     display: inline-block;
     text-align: center;
+    min-height: 880px;
 }
 
 .col-team-standard {
@@ -301,6 +300,7 @@ hr {
     margin:0 5%;
     display: inline-block;
     text-align: center;
+    min-height: 880px;
 }
 
 
@@ -308,6 +308,7 @@ hr {
     width: 30%;
     display: inline-block;
     text-align: center;
+    min-height: 880px;
 }
 
 .col-team-enterprise {
@@ -325,19 +326,15 @@ hr {
     border-bottom: solid #d8d8db;
 }
 
-.fa-building,
-.fa-user {
+.title-icon {
     margin: 15px 0;
 }
 
-.fa-user,
-.fa-folder,
-.fa-pencil-alt {
-    margin-left: -20px;
-}
-
-.icon-text-container {
-    padding-left: 20px;
+.icon {
+    margin-left: -12px;
+    padding-top: 15px;
+    text-align: left;
+    display: inline-block;
 }
 
 .fa-check {
