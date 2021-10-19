@@ -501,7 +501,10 @@ hr {
     height: 50%;  
     text-align: center;  
     filter: invert(1);
+    vertical-align: middle;
 }
+
+
 /* sfondi boxes */
 
 .up-left-box-left {
