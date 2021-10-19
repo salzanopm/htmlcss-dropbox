@@ -89,7 +89,7 @@ hr {
     width: 30%;
 }
 
-.btn-radius {
+.btn-radio {
     display: inline-block;
     background-color: white;
     border-radius: 50%;
@@ -99,11 +99,11 @@ hr {
     vertical-align: middle;
 }
 
-.btn-radius-blue {
+.btn-radio-blue {
     border: solid #0061ff 4px;
 }
 
-.btn-radius-gray {
+.btn-radio-gray {
     border: solid #d8d8db 1.5px;
 }
 
@@ -117,7 +117,7 @@ hr {
     cursor: pointer;
 }
 
-.btn-radius:hover {
+.btn:hover {
     cursor: pointer;
 }
 

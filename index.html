@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Link font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
+    <!-- link font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- start header -->
     <header>
+        <!-- start nav -->
         <nav class="navbar">
             <div class="clearfix">
+                <!-- image logo column -->
                 <div class="col col-logo">
                     <img class="img-logo" src="img/logo-small.png" alt="Logo Dropbox">
                 </div>
+                <!-- left links column -->
                 <div class="col col-links-sx">
                     <ul class="menu-links-sx">
                         <li>
@@ -31,6 +35,7 @@
                         </li>
                     </ul>
                 </div>
+                <!-- rigth links column -->
                 <div class="col col-links-dx">
                     <ul class="menu-links-dx">
                         <li>
@@ -44,6 +49,7 @@
                         </li>
                     </ul>
                 </div>
+                <!-- "inizia" button column -->
                 <div class="col col-inizia">
                     <span class="btn blue">
                         <a class="text-small text-white" href="#">Inizia</a>
@@ -51,57 +57,73 @@
                 </div>
             </div>
         </nav>
+        <!-- end navbar -->
     </header>    
     <!-- end header -->
     <!-- start main -->
     <main>
         <!-- start jumbotron -->
         <section class="jumbotron">
+            <!-- start container width 80% -->
             <div class="container-80">
+                <!-- title jumbotron -->
                 <h1 class="title-jumbotron">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="clearfix">
+                    <!-- start left jumbotron column with description and button -->
                     <div class="col col-text-jumbotron text-normal">
+                        <!-- description -->
                         <p class="text-try-for-free">
                         Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono 
                         accessibili dallo stesso posto. Dropbox Business è più di uno spazio 
                         di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare 
                         il flusso di lavoro esistente.
                         <p>
+                        <!-- "inizia la tua prova gratuita" button -->
                         <div class="container-try-for-free">
                             <span class="btn blue">
                                 Inizia la tua Prova gratuita
                             </span>
                         </div>
+                        <!-- cancel at any time part with arrow icon  -->
                         <p class="text-small">Annulla in qualsiasi momento</p>
                         <div class="container-try-for-free">
                             <i class="fas fa-arrow-down fa-3x"></i>
                         </div>
                     </div>
+                    <!-- end left jumbotron column with description and button -->
+                    <!-- start right jumbotron column with jumbotron image -->
                     <div class="col col-img-jumbotron">
                         <img class="img-jumbotron" src="img/jumbo.png" alt="Jumbotron image">
                     </div>
+                    <!-- end right jumbotron column with jumbotron image -->
                 </div>
             </div>
+            <!-- end container width 80% -->
         </section>
         <!-- end jumbotron -->
-        <!-- start business plan -->
+        <!-- start container width 70% -->
         <div class="container-70">
+            <!-- start business plan -->
             <section class="business-plan">
-                <h2 class="common-title-big">
-                    Trova il piano Dropbox Business che fa per te                  
-                </h2>
+                <!-- business plan title -->
+                <h2 class="common-title-big">Trova il piano Dropbox Business che fa per te</h2>
+                <!-- choose business plan radio botton -->
                 <div class="choose-plan text-normal">
-                    <span class="btn-radius btn-radius-blue"></span>
+                    <span class="btn-radio btn-radio-blue"></span>
                     <span class="monthly plan">Fatturazione mensile</span>
-                    <span class="btn-radius btn-radius-gray"></span>
+                    <span class="btn-radio btn-radio-gray"></span>
                     <span class="annual plan">Fatturazione annuale</span>
                 </div>
+                <!-- start clearfix for the three columns -->
                 <div class="clearfix columns">
+                    <!-- start business plan left column  -->
+                    <!-- title column -->
                     <div class="col col-singolo-professional style-border text-normal">
                         <p class="col-professional style-border-bottom">
                             <i class="far fa-user title-icon"></i>
                             Singolo
                         </p>
+                        <!-- content column -->
                         <div class="container-left-align">
                             <h2 class="common-title-medium">Professional</h2>
                             <h3 class="common-title-small padding-titles">19,90€</h3>
@@ -128,11 +150,15 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end business plan first column -->
+                    <!-- start business plan central column -->
+                    <!-- title column -->
                     <div class="col col-team-standard style-border text-normal">
                         <p class="col-standard style-border-bottom ">
                             <i class="far fa-building title-icon"></i>
                             Team
                         </p>
+                        <!-- content column -->
                         <div class="container-left-align">
                             <h2 class="common-title-medium">Standard</h2>
                             <h3 class="common-title-small padding-titles">19,90€</h3>
@@ -160,11 +186,15 @@
                             </div>
                         </div>
                     </div>
+                    <!-- end business plan central column -->
+                    <!-- start business plan right column -->
+                    <!-- title column -->
                     <div class="col col-team-advanced style-border text-normal">
                         <p class="col-advanced style-border-bottom">
                             <i class="far fa-building title-icon"></i>
                             Team
                         </p>
+                        <!-- content column -->
                         <div class="container-left-align">
                             <h2 class="common-title-medium">Advanced</h2>
                             <h3 class="common-title-small padding-titles">19,90€</h3>
@@ -192,12 +222,17 @@
                             </div>
                         </div>
                     </div>
-                </div>                
+                    <!-- end business plan right column -->
+                </div>  
+                <!-- end clearfix for the three columns -->
+                <!-- start business lan celtral row -->
+                <!-- title row -->
                 <div class="col-team-enterprise style-border text-normal">
                     <p class="col-advanced style-border-bottom">
                         <i class="far fa-building title-icon"></i>
                         Team
                     </p>
+                    <!-- content row -->
                     <div class="container-left-align">
                         <div class="clearfix enterprise">
                             <div class="col col-enterprise-left">
@@ -212,15 +247,18 @@
                             </div>
                         </div>
                     </div>
-                </div>                 
+                </div>
+                <!-- business plan celtral row -->
             </section>
             <!-- end business plan -->
             <!-- start dropbox find a partner -->
             <section class="find-a-partner">
                 <div class="clearfix">
+                    <!-- partner image column -->
                     <div class="col col-find-a-partner-img">
                         <img src="img/partner.png" alt="picture find a partner">                        
                     </div>
+                    <!-- partner text column -->
                     <div class="col col-find-a-partner-text">
                         <h2 class="find-a-partner-title common-title-medium">Entra in contatto con un partner Dropbox</h2>
                         <p class="find-a-partner-paragraph text-normal">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni 
@@ -236,9 +274,12 @@
             <!-- end find a partner -->
             <!-- start more operation -->
             <section class="more-operation">
+                <!-- operation title -->
                 <h2 class="operation-title common-title-big">Esegui più operazioni con Dropbox business</h2>
+                <!-- start first row operation -->
                 <div class="operation-row-1">
                     <div class="clearfix">
+                        <!-- first row left column operation -->
                         <div class="col col-operation-1">
                             <img src="img/business-feature-switching-tools.png" alt="1">
                             <h3 class="common-title-medium">Passa di meno da uno strumento all'altro</h3>
@@ -247,6 +288,7 @@
                                 Fogli e Presentazioni di google, Microsoft Office e <span class="underline">Dropbox paper</span> direttamente da Dropbox.
                             </p>
                         </div>
+                        <!-- first row central column operation -->
                         <div class="col col-operation-2">
                             <img src="img/business-feature-coordinate-it.png" alt="2">
                             <h3 class="common-title-medium">Passa di meno da uno strumento all'altro</h3>
@@ -255,6 +297,7 @@
                                 Fogli e Presentazioni di google, Microsoft Office e <span class="underline">Dropbox paper</span> direttamente da Dropbox.
                             </p>
                         </div>
+                        <!-- first row right column operation -->
                         <div class="col col-operation-3">
                             <img src="img/business-feature-multi-device.png" alt="3">
                             <h3 class="common-title-medium">Passa di meno da uno strumento all'altro</h3>
@@ -265,8 +308,11 @@
                         </div>
                     </div> 
                 </div>
+                <!-- end first row operation -->
+                <!-- start second row operation -->
                 <div class="operation-row-2">
                     <div class="clearfix">
+                        <!-- second row left column operation -->
                         <div class="col col-operation-4">
                             <img src="img/business-feature-integrations-it.png" alt="4">
                             <h3 class="common-title-medium">Passa di meno da uno strumento all'altro</h3>
@@ -275,6 +321,7 @@
                                 Fogli e Presentazioni di google, Microsoft Office e <span class="underline">Dropbox paper</span> direttamente da Dropbox.
                             </p>
                         </div>
+                        <!-- second row central column operation -->
                         <div class="col col-operation-5">
                             <img src="img/business-feature-send-files-it.png" alt="5">
                             <h3 class="common-title-medium">Passa di meno da uno strumento all'altro</h3>
@@ -283,6 +330,7 @@
                                 Fogli e Presentazioni di google, Microsoft Office e <span class="underline">Dropbox paper</span> direttamente da Dropbox.
                             </p>
                         </div>
+                        <!-- second row right column operation -->
                         <div class="col col-operation-6">
                             <img src="img/business-feature-security.png" alt="6">
                             <h3 class="common-title-medium">Passa di meno da uno strumento all'altro</h3>
@@ -294,19 +342,21 @@
                     </div>  
                 </div>           
             </section>
+            <!-- end more operation -->
         </div>
-        <!-- end more operation -->
+        <!-- end container 70% -->
          <!-- start dropbox team -->
         <section class="dropbox-team">
+            <!-- dropbox team title -->
             <div class="dropbox-team-title container-70">
                 <h2 class="common-title-big">Più di 500.000 team utilizzano Dropbox Business</h2>
                 <p class="paragraph-team-find-out"><a class="blue-link" href="#">Scopri di più sui nostri clienti</a></p>
             </div>
-
+            <!-- start first row dropbox team-->
             <div class="team-row-1">
                 <div class="clearfix">
+                    <!-- left column dropbox team -->
                     <div class="col col-team-box-left-and-right clearfix">
-                        
                         <div class="col col-50 up-left-box-left">
                             <div class="border-box">
                                 <img class="box-img" src="img/designit.svg" alt="designit logo">
@@ -320,14 +370,16 @@
                         </div>
                         <div class="col col-50 down-right-box-left">
                             <img class="box-img" src="img/topps.svg" alt="topps logo">
-                        </div>
-                                            
+                        </div>                    
                     </div>
+                    <!-- central column dropbox team -->
                     <div class="col col-team-central">
+                        <!-- image central column dropbox team -->
                         <div class="logo">
                             <img class="box-img-central" src="img/designit.svg" alt="designit logo">
                         </div>
                         <hr class="hr-box-central">
+                        <!-- text central column dropbox team -->
                         <div class="box-text-central text-normal">
                             <p>"I membri del nostro team lavorano costantemente in Paesi, fusi orari e
                             uffici diversi.
@@ -339,6 +391,7 @@
                         <p class="firma-box-central">Morthen Thomsen, Global IT Lead</p>
                         </div>
                     </div>
+                    <!-- right column dropbox team -->
                     <div class="col col-team-box-left-and-right">
                         <div class="col col-50 up-left-box-right">
                             <img class="box-img" src="img/world_bicycle_relief.svg" alt="world bicycle relief logo">
@@ -355,12 +408,16 @@
                     </div>
                 </div>
             </div>
+            <!-- end first row dropbox team-->
+            <!-- start second row dropbox team-->
             <div class="team-row-2"> 
                 <div class="container-70">
                     <div class="clearfix">
+                        <!-- title second row -->
                         <div class="col col-team-row-2-text">
                             <h2 class="team-title common-title-big">Porta Dropbox Business nella tua azienda.</h2>
                         </div>
+                        <!-- button second row -->
                         <div class="col col-team-row-2-btn">
                             <div class="team-row-2-btn-container">
                                 <span class="start-free-trial btn white">Inizia la tua prova gratuita</span>
@@ -369,14 +426,17 @@
                     </div>
                 </div>
             </div>
+            <!-- start second row dropbox team-->
         </section>
         <!-- end dropbox partners -->
         <div class="container">
             <!-- start faq -->
             <section class="faq">
                 <div class="container-70"> 
+                    <!-- title faq -->
                     <h2 class="faq-title common-title-big">Domande più frequenti</h2>
                     <hr class="hr-faq">
+                    <!-- faq -->
                     <ul class="faq-list">
                         <li class="faq-difference">Qual'è la differenza tra Dropbox Business standard e Dropbox Business Advanced?</li>
                         <hr class="hr-faq">
@@ -395,6 +455,7 @@
         <footer class="footer-links">
             <div class="footer-container text-normal container-80">
                 <div class="clearfix">
+                    <!-- first links column -->
                     <div class="col col-footer-links footer-links-dropbox">
                         <h3 class="footer-title-links">Dropbox</h3>
                         <ul class="footer-links-list">
@@ -405,6 +466,7 @@
                             <li><a href="#">Funzioni</a></li>
                         </ul>
                     </div>
+                    <!-- second links column -->
                     <div class="col col-footer-links footer-links-prodotti">
                         <h3 class="footer-title-links">Prodotti</h3>
                         <ul class="footer-links-list">
@@ -415,6 +477,7 @@
                             <li><a href="#">Funzioni</a></li>
                         </ul>
                     </div>
+                    <!-- third links column -->
                     <div class="col col-footer-links footer-links-azienda">
                         <h3 class="footer-title-links">Azienda</h3>
                         <ul class="footer-links-list">
@@ -425,6 +488,7 @@
                             <li><a href="#">Funzioni</a></li>
                         </ul>
                     </div>
+                    <!-- fourth links column -->
                     <div class="col col-footer-links footer-links-supporto">
                         <h3 class="footer-title-links">Supporto</h3>
                         <ul class="footer-links-list">
@@ -435,6 +499,7 @@
                             <li><a href="#">Funzioni</a></li>
                         </ul>
                     </div>
+                    <!-- fifth links column -->
                     <div class="col col-footer-links footer-links-comunity">
                         <h3 class="footer-title-links">Comunity</h3>
                         <ul class="footer-links-list">
@@ -446,6 +511,7 @@
                 </div>
                 <hr class="hr-footer">
                 <div style="color: azure;">
+                    <!-- language selection -->
                     <span class="footer-language"><i class="fas fa-globe-americas"></i>Italiano &triangle;</span>
                 </div>
             </div>
