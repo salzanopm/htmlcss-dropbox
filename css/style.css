@@ -5,23 +5,6 @@
     box-sizing: border-box;
 }
 
-/* height  */
-.height100 {
-    height: 100px;
-}
-
-
-.height600 {
-    height: 600px;
-}
-.plum {
-    background-color: plum;
-}
-
-.purple {
-    background-color: purple;
-}
-
 /* COMMON */
 body {
     font-family: 'Open Sans',sans-serif;
@@ -51,16 +34,6 @@ hr {
     background-color: #d8d8db;
 }
 
-.wrapper {
-    width: 90%;
-    text-align: left;
-    padding-bottom: 30px;
-}
-
-.wrapper-list {
-    display: inline-block;
-    padding-left: 10px;
-}
 
 .list-icon-text {
     padding: 6px 0;
@@ -265,6 +238,7 @@ hr {
 
 .jumbotron {
     background-color: #b4d0e7;
+    height: 600px;
 
 }
 
@@ -381,6 +355,17 @@ hr {
     padding: 30px 0 10px 0;
 }
 
+.wrapper {
+    width: 90%;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+.wrapper-list {
+    display: inline-block;
+    padding-left: 10px;
+}
+
 .check {
     padding: 10px 0;
 }
@@ -401,7 +386,7 @@ hr {
     padding: 20px;
 }
 
-.padding-titles{
+.padding-titles {
     padding: 15px 0 10px 0;
 }
 
@@ -508,9 +493,7 @@ hr {
     vertical-align: middle;
 }
 
-
 /* sfondi boxes */
-
 .up-left-box-left {
     background-color: #d0e9cd;
 }
@@ -518,13 +501,9 @@ hr {
 .border-box {
     display: inline-block;
     vertical-align: middle;
-    /* background-color: #a2d39b; */
     background-color: #a2d39b;
     width: 90%;
     height: 157.5px;
-
-    
-    
 }
 
 .up-right-box-left {
@@ -605,6 +584,7 @@ hr {
 .col-team-row-2-btn {
     width: 40%;
 }
+
 /* section faq */
 .faq-title {
     padding-bottom: 20px;
@@ -618,7 +598,6 @@ hr {
 }
 
 /* FOOTER */
-
 footer {
     background-color: black;
     margin-top: 120px;
