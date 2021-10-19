@@ -435,6 +435,10 @@ hr {
     margin-bottom: 30px;
 }
 
+.description-operation {
+    padding: 30px 0;
+}
+
 .operation-row-1 {
     margin-bottom: 40px;
 }
