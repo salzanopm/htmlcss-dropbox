@@ -631,3 +631,13 @@ footer {
 .footer-language {
     color: #727272;
 }
+
+.col-faq-left {
+    width: 70%;
+}
+
+.col-faq-right {
+    width: 30%;
+    text-align: right;
+    padding-right: 25px;
+}
